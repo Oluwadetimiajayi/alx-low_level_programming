@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - function that takes a pointer to an int as parameter
+ * reset_to_98 - takes a pointer to an int as parameter
  * updates the value it points to to 98
- *
- * Return: Always 0
+ * @n: pointer to the variable to be updated
  */
 void reset_to_98(int *n)
 {
